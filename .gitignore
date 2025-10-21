@@ -2,6 +2,7 @@
 /node_modules
 /.pnp
 .pnp.js
+/dist
 
 # package lock files
 package-lock.json
