@@ -41,7 +41,7 @@ function ChatApp() {
   
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-amber-50 to-amber-100 p-4">
+    <>
       {!isModalOpen && (
         <motion.button
           onClick={() => setIsModalOpen(true)}
@@ -109,7 +109,7 @@ function ChatApp() {
           </motion.div>
         )}
       </AnimatePresence>
-    </div>
+    </>
   );
 }
 
